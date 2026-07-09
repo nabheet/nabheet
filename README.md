@@ -14,7 +14,7 @@ latexmk -pdf -outdir=.temp nabheet_sandhu_resume.tex
 
 - **MCP Ecosystem** — Model Context Protocol servers that bridge AI assistants with real-world tools. [vscode-mcp-server](https://github.com/nabheet/vscode-mcp-server) lets AI agents control VS Code; [pcbway-mcp-server](https://github.com/nabheet/pcbway-mcp-server) connects LLMs to PCB manufacturing APIs.
 - **Agentic Team Chat** — Multi-agent system where specialized LLM-powered agents collaborate autonomously on complex software tasks.
-- **Wiki On This Day** — Daily AI-generated video summaries of historical events, combining Wikipedia data with LLM curation.
+- **[Wiki On This Day](https://github.com/nabheet/wiki-on-this-day)** — Daily AI-generated video summaries of historical events, combining Wikipedia data with LLM curation.
 
 ### 🚀 Open source contributions
 
