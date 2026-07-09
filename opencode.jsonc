@@ -1,0 +1,33 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["opencode.jsonc" /* self-referencing — instructions inline below */],
+  "username": "Nabheet Singh Sandhu"
+}
+
+// ═══════════════════════════════════════════════════════════════
+// PROJECT INSTRUCTIONS — My Resume (LaTeX)
+// ═══════════════════════════════════════════════════════════════
+//
+// PROJECT:  LaTeX resume for Nabheet Singh Sandhu
+// SOURCE:   nabheet_sandhu_resume.tex
+// OUTPUT:   .temp/ (all generated files)
+// TARGET:   AI Engineer roles at tech companies
+//
+// BUILD:
+//   pdflatex -output-directory=.temp nabheet_sandhu_resume.tex
+//
+// CONSTRAINTS:
+//   - Keep resume to 1-2 pages
+//   - Age-neutral positioning: no graduation year, no "X+ years", no
+//     "seasoned"/"veteran"/"extensive", summarize pre-2015 career compactly
+//   - Lead with AI/agent work, infra/ops is supporting context
+//   - Side projects section showcases active building
+//   - Email uses the masked __VG_EMAIL handle from the original file
+//   - Course certificate URLs use the existing __VG_UUID handles
+//
+// FILES:
+//   nabheet_sandhu_resume.tex  — source document
+//   .temp/nabheet_sandhu_resume.pdf  — generated PDF (gitignored)
+//   .gitignore  — already ignores .temp/ and all LaTeX aux files
+//
+// TONE: professional, achievement-oriented, quantified impact
