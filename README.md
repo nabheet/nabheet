@@ -4,11 +4,7 @@
 
 ### 📄 Resume
 
-This repo is my resume — a LaTeX document compiled to PDF. The source is `nabheet_sandhu_resume.tex` and the latest PDF lives in `.temp/`. Build with:
-
-```bash
-latexmk -pdf -outdir=.temp nabheet_sandhu_resume.tex
-```
+This repo is my resume — see the latest PDF [here](.temp/nabheet_sandhu_resume.pdf).
 
 ### 🔭 What I'm building
 
