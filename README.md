@@ -4,7 +4,7 @@
 
 ### 📄 Resume
 
-This repo is my resume — see the latest PDF [here](.temp/nabheet_sandhu_resume.pdf).
+This repo is my resume — [download the latest PDF](https://github.com/nabheet/nabheet/releases/download/v1.0/nabheet_sandhu_resume.pdf).
 
 ### 🔭 What I'm building
 
