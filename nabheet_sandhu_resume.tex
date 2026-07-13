@@ -30,25 +30,23 @@ Denver Metro Area \;|\;
 
 % ---- Summary ----
 \section*{Summary}
-AI Engineer specializing in agentic systems, LLM-powered applications, and production-grade AI infrastructure. Builds intelligent agents and AI tools using LangChain, Google ADK, and Vertex AI. Combines deep systems engineering background with modern AI/ML toolchains to deliver end-to-end intelligent systems in cloud-native environments.
+AI Engineer building production agentic systems and developer tooling that bridge AI with real-world environments. Creator of open-source MCP servers connecting AI agents to IDEs, manufacturing APIs, and automation pipelines. Combines systems engineering experience with modern AI/ML to deliver cloud-native intelligent systems at scale.
 
 % ---- Skills ----
 \section*{Skills}
-\textbf{AI/ML:} LangChain, Google ADK, Vertex AI, OpenAI API, Anthropic API, Prompt Engineering, RAG, Agent Frameworks \\
-\textbf{Languages:} Python, TypeScript, JavaScript, Node.js, Ruby \\
-\textbf{Cloud Platforms:} GCP (Cloud Run, Vertex AI, Pub/Sub, Cloud SQL, Armor), AWS (EKS, EC2, Lambda, RDS, WAF), Pulumi \\
+\textbf{AI/ML:} LangChain, OpenAI API, Prompt Engineering, RAG, Agent Frameworks, MCP, Google ADK \\
+\textbf{Languages:} Python, TypeScript, JavaScript, Ruby \\
+\textbf{Frameworks:} Node.js, FastAPI, React \\
+\textbf{Cloud Platforms:} GCP (Cloud Run, Pub/Sub, Cloud SQL, Cloud Armor), AWS (EKS, EC2, Lambda, RDS, WAF), Pulumi \\
 \textbf{Infrastructure:} Kubernetes, Docker, Ansible, CI/CD, OpenTelemetry, Grafana, ELK Stack \\
-\textbf{Databases:} PostgreSQL, MySQL, Redis, MongoDB \\
-\textbf{Courses:} \href{https://www.udemy.com/certificate/UC-139cb69e-ff24-4de2-8889-df32f999fa21/}{AI Engineer Bootcamp},
-                  \href{https://www.udemy.com/certificate/UC-835d16d0-903f-4afd-8f66-6d6da2ff75c3/}{AI Agent Engineer Course},
-                  \href{https://coursera.org/share/1613a5d165fbe645bb55de4eed96ce8b}{Machine Learning}
+\textbf{Databases:} PostgreSQL (pgvector), MySQL, Redis \\
 
 % ---- Experience ----
 \section*{Experience}
 
 \textbf{Software Engineer IV (Contract)} \hfill Spectrum \hfill Mar 2026\textendash{}Present
 \begin{itemize}
-  \item Building SpectrumGPT\textemdash{}internal AI platform for business process automation using LLMs and agentic workflows.
+  \item Built SpectrumGPT\textemdash{}internal AI platform for business process automation using LLMs and agentic workflows, serving 75k+ daily users with real-time data integration.
   \item Built AI-powered development environment with specialized coding agents for automated code review, cross-browser testing with visual comparison, and real-time production monitoring.
   \item Improved platform reliability across the stack: eliminated intermittent server crashes through database driver upgrades, reduced API response times by \textasciitilde25\% with intelligent caching and early request validation, eliminated silent service failures with automatic connection recovery and health monitoring.
   \item Modernized full-stack application upgrading 8 major framework dependencies (Node.js, TypeScript, React, Vite, Storybook, MSW, Vitest, Sass), fixing 56 type safety errors while maintaining 321 passing tests.
@@ -57,12 +55,15 @@ AI Engineer specializing in agentic systems, LLM-powered applications, and produ
 
 \textbf{Sr Software Engineer (Contract)} \hfill CoBank \hfill Dec 2025\textendash{}Mar 2026
 \begin{itemize}
-  \item Founding member of new development team; established project architecture, CI/CD pipelines, and development workflows for a lending platform migrating from on-prem to AWS.
+  \item Founding member of new development team responsible for setup and definition of project architecture and development workflows.
+  \item Implemented lending product workflows migrating on-prem systems to AWS.
+  \item Utilized GitHub Actions for CI/CD and Terraform for infrastructure as code.
+  \item Improved onboarding process for new engineers by creating documentation and walkthroughs for development and deployment processes.
 \end{itemize}
 
 \textbf{Sr Software Engineer} \hfill Functional Finance \hfill Sep 2023\textendash{}Oct 2025
 \begin{itemize}
-  \item Implemented AI agents using Google\textquoteright{}s Agent Development Kit (ADK) and Vertex AI for automated QA test generation, reducing release cycle testing time.
+  \item Reduced release cycle testing time by implementing automated QA test generation with AI agents.
   \item Architected OpenTelemetry observability layer providing distributed tracing and metrics across the full stack, enabling resolution of performance bottlenecks and deadlock issues.
   \item Designed and deployed Python (FastAPI) and Node.js APIs on GCP Cloud Run, Cloud SQL, Pub/Sub, and Cloud Armor.
   \item Built VS Code Dev Containers-based development environment, reducing engineer onboarding time and ensuring consistent tooling across the team.
@@ -96,16 +97,15 @@ AI Engineer specializing in agentic systems, LLM-powered applications, and produ
 % ---- Open Source & Side Projects ----
 \section*{Open Source \& Side Projects}
 \begin{itemize}
+  \item \href{https://github.com/nabheet/vscode-mcp-server}{\textbf{vscode-mcp-server}} \textendash{} VS Code extension exposing 42 IDE capabilities (debugger control, LSP features, terminal execution, file operations) as MCP tools for AI agents. (TypeScript, VS Code API)
+  \item \href{https://github.com/nabheet/pcbway-mcp-server}{\textbf{pcbway-mcp-server}} \textendash{} MCP server covering all 16 PCBWay Partner API endpoints for PCB manufacturing quotes, SMT assembly pricing, and full order lifecycle management. (TypeScript, MCP)
   \item \href{https://github.com/nabheet/wiki-on-this-day}{\textbf{Wiki On This Day}} \textendash{} Agentic LangChain pipeline that fetches Wikipedia events, summarizes them via LLM, and generates documentary videos using OpenAI Sora. (Python, LangChain, OpenAI API)
-  \item \textbf{Agentic Team Chat} \textendash{} Multi-agent system with 5 C-suite AI agents conducting corporate strategy discussions via LangChain orchestration with text-to-speech. (Python, LangChain)
-  \item \href{https://github.com/nabheet/data-gov-agent}{\textbf{data-gov-agent}} \textendash{} Agentic AI application querying data.gov, downloading datasets, and generating structured summaries. (Python)
-  \item \href{https://github.com/nabheet/kicad-auto-designer}{\textbf{kicad-auto-designer}} \textendash{} KiCad plugin for ML-assisted PCB component auto-layout. (Python, KiCad)
-  \item \textbf{MCP Server Ecosystem} \textendash{} Built MCP servers for \href{https://github.com/nabheet/pcbway-mcp-server}{PCBWay}, \href{https://github.com/nabheet/vscode-mcp-server}{VS Code}; contributed to FreeCAD, GIMP, and Blender MCP integrations.
 \end{itemize}
 
 % ---- Education ----
 \section*{Education}
-\textbf{University of California, Berkeley} \hfill B.S. Electrical Engineering \& Computer Science
+\textbf{University of California, Berkeley} \hfill B.S. Electrical Engineering \& Computer Science \\
+\textbf{Certifications:} \href{https://www.udemy.com/certificate/UC-139cb69e-ff24-4de2-8889-df32f999fa21/}{AI Engineer Bootcamp}, \href{https://www.udemy.com/certificate/UC-835d16d0-903f-4afd-8f66-6d6da2ff75c3/}{AI Agent Engineer Course}, \href{https://www.coursera.org/account/accomplishments/verify/AP4AX6F6X5HR}{Machine Learning (Coursera)}
 
 % ---- Accomplishments ----
 \section*{Accomplishments}
